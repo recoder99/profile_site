@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.84 220">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Obliviousfont, 'Oblivious font';
+        font-size: 165.02px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #FFFFFF;
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(0 163)"><tspan x="0" y="0">.roel</tspan></text>
+  <rect class="cls-2" x="25.84" y="203" width="469" height="17"/>
+  <rect class="cls-2" x="25.84" width="469" height="17"/>
+</svg>
