@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     </head>
     <body>
-        <div class="header"> 
+        <div id="header" class="header"> 
             <div class="control">
-                <div class=".logo-container">
+                <div class="logo-container">
                     <img class="logo-img" src="logo.svg">
                 </div>
                 <div class="menu-container" onclick="toggleNav()">
@@ -16,18 +16,266 @@
             </div>
             <div id="navbar" class="nav-bar">
                 <ul class="nav-menu">
-                    <li>Skills</li>
-                    <li>Experience</li>
-                    <li>Contact</li>
+                    <li><a href="#proj">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About Me</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="content">
-            <h1>Content 2 </h1>
-            <h1>Content 2 </h1>
+            <div class="welcome">
+                <div class="title">
+                    <p>Welcome! I am,</p>
+                    <p style="font-size: 4rem;">Roel Castro</p>
+                    <p>Student/Software Developer/Hobbyist</p>
+                    <div class="social-buttons">
+                        <button onclick="location.href='https://github.com/recoder99'">
+                            <img src="svg_icons/github-icon-1-logo-svgrepo-com.svg">
+                        </button>
+                        <button onclick="location.href='https://www.linkedin.com/in/roelccastro'">
+                            <img src="svg_icons/linkedin-svgrepo-com.svg">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="picture">
+                    <img class="picture-img" src="my_pic.png">
+                </div>
+            </div>
+
+            <div id="proj" class="subcontent bg-0">
+                <p>Projects</p>
+                <div class="project-container">
+                    <div class="project">
+                        <div class="proj-pic-container">
+                            <img src="med_filter.png">
+                        </div>
+                        <p>Median Filter</p>
+                        <p class="proj-desc">
+                            A CLI program that can reduce salt and
+                            pepper noise from a grayscale images.
+                        </p>
+                        <div class="bt-container">
+                            <button onclick="location.href='https://github.com/recoder99/median_filter_cpp'">View on GitHub</button>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="proj-pic-container">
+                            <img src="envy.png">
+                        </div>
+                        <p>Envy E-commerce website</p>
+                        <p class="proj-desc">
+                            A Simple E-commerce website with login authentication
+                            features using Django and PostgreSQL.
+                        </p>
+                        <div class="bt-container">
+                            <button onclick="location.href='https://github.com/recoder99/clothing-site'" >View on GitHub</button>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="proj-pic-container">
+                            <img src="net_game.webp">
+                        </div>
+                        <p>Networking in Damath</p>
+                        <p class="proj-desc">
+                            Responsible for the network implementation of the game
+                        </p>
+                        <div class="bt-container">
+                            <button onclick="location.href='https://github.com/DevianKeno/arithmetic-checkers'">View on GitHub</button>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="proj-pic-container">
+                            <img src="plumber.png">
+                        </div>
+                        <p>Plumber</p>
+                        <p class="proj-desc">A dynamically typed scripting language specializing
+                            in file automation
+                        </p>
+                        <div class="bt-container">
+                            <button onclick="location.href='https://github.com/recoder99/plumber'">View on GitHub</button>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="proj-pic-container">
+                            <img src="portfolio.png">
+                        </div>
+                        <p>Personal Website</p>
+                        <p>My own portfolio website. Created purely in HTML/CSS/JS</p>
+                        <div class="bt-container">
+                            <button onclick="location.href='https://github.com/recoder99/profile_site'">View on GitHub</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills" class="subcontent bg-0">
+                <p>Skills</p>
+                <div class="skills-container">
+                    <div class="subskills">
+                        <p>Programming Languages</p>
+                        <div class="prog-container">
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/python.svg">
+                                </div>
+                                <p class="prog-name">Python</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/csharp.svg">
+                                </div>
+                                <p class="prog-name">C#</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/java.svg">
+                                </div>
+                                <p class="prog-name">Java</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/cpp.svg">
+                                </div>
+                                <p class="prog-name">C/C++</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-javascript.svg">
+                                </div>
+                                <p class="prog-name">JavaScript</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-html-5.svg">
+                                </div>
+                                <p class="prog-name">HTML</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-css.svg">
+                                </div>
+                                <p class="prog-name">CSS</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subskills">
+                        <p>Web Frameworks and Tools</p>
+                        <div class="prog-container">
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-django.svg">
+                                </div>
+                                <p class="prog-name">Django</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-unity.svg">
+                                </div>
+                                <p class="prog-name">Unity</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-opencv.svg">
+                                </div>
+                                <p class="prog-name">OpenCV</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-postgresql.svg">
+                                </div>
+                                <p class="prog-name">PostgreSQL</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subskills">
+                        <p>Environment</p>
+                        <div class="prog-container">
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/icons8-windows.svg">
+                                </div>
+                                <p class="prog-name">Windows</p>
+                            </div>
+                            <div>
+                                <div class="tool-icon-container">
+                                    <img src="svg_icons/linux-svgrepo-com.svg">
+                                </div>
+                                <p class="prog-name">Linux</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about" class="subcontent bg-0">
+                <p>About Me</p>
+                <div class="about">
+                    <div class="info">
+                        <div>
+                            <p>Who am I?</p>
+                            <p>I'm Roel Castro. I am currently a college student of Polytechnic University of the Philippines - Sta Mesa Campus studying Bachelors of Science in Computer Science. I currently specialized in game development and Linux environment </p>
+                        </div>
+
+                        <div>
+                            <p>Hobbies</p>
+                            <p>Aside from doing coding stuff. I do watch anime and read novels and manga on my free time. I also like brewing coffee especially the beans produced by our country.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-pic">
+                        <img src="my_pic.png" class="picture-img">
+                    </div>
+                </div>
+                <div class="about-aff">
+                    <p>Education and Affiliations</p>
+                    <div class="aff">
+                        <div class="aff-box">
+                            <div>
+                                <img src="svg_icons/PUPLogo.png">
+                            </div>
+                            <div>
+                                <p>Polytechnic University of the Philippines</p>
+                                <p>2020 - Present</p>
+                            </div>
+                        </div>
+
+                        <div class="aff-box">
+                            <div>
+                                <img src="svg_icons/dsc_icon-01.svg">
+                            </div>
+                            <div>
+                                <p>Google Developer Student Club - PUP</p>
+                                <p>2023 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-container">
+                <img src="logo.svg">
+                <div class="social-buttons no-margin">
+                    <button onclick="location.href='https://github.com/recoder99'">
+                        <img src="svg_icons/github-icon-1-logo-svgrepo-com.svg">
+                    </button>
+                    <button onclick="location.href='https://www.linkedin.com/in/roelccastro'">
+                        <img src="svg_icons/linkedin-svgrepo-com.svg">
+                    </button>
+                </div>
+                <p>@2024 Roel C. Castro. All Rights Reserved </p>
+            </div>
         </div>
     </body>
-
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
     <script src="script.js"></script>
 </html>
